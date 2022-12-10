@@ -1,1 +1,1 @@
-Intel
+101-quote
