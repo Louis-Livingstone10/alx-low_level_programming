@@ -4,7 +4,7 @@
  *
  * Reeturn: Always 0 (Success)
  */
-	int main(void)
+int main(void)
 {
 	char c;
 
@@ -13,7 +13,8 @@
 			(c <= 'z') {
 			putchar(c);
 			c++;
-		}
+		
 	putchar('\n');
+			}
 	return (0);
 }
