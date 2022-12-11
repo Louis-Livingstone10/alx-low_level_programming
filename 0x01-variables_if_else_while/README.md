@@ -1,1 +1,1 @@
-Last digit
+Print alphabeth
