@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Reeturn: Always 0 (Success)
+*Description: Print an alphabeth
+ * Return: Always 0 (Success)
  */
-int main(void)
+	int main(void)
 {
 	char c;
 
@@ -13,7 +13,7 @@ int main(void)
 			(c <= 'z') {
 			putchar(c);
 			c++;
-		}
+			}
 	putchar('\n');
 	return (0);
 }
