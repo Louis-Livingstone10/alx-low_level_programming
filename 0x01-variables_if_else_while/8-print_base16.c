@@ -2,21 +2,19 @@
 /**
  * main - Entry point
  *
- * Description: Print base 16 in reverse
+ * Return: Always 0
  */
-
 int main(void)
-
 {
 	char c;
+
 
 	int d;
 
 	c = 'a';
-
 	d = '0';
 	while
-		(d < 10) {
+		(d < 100) {
 			putchar(d + '0');
 			d++;
 		}
@@ -26,4 +24,5 @@ int main(void)
 			c++;
 		}
 	putchar('\n');
-return (0);
+	return (0);
+}
