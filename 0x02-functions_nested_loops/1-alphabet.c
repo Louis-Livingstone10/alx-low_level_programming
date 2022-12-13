@@ -13,8 +13,8 @@ void print_alphabet(void);
 		(c <= 'z');
 
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar('\n')
+	_putchar('\n')
 }
